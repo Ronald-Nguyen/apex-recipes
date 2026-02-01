@@ -1,0 +1,60 @@
+Project Structure & Complexity Report
+=====================================
+File Path                                                    | Complexity   | Lines of Code
+-----------------------------------------------------------------------------------------------
+.\force-app\main\default\classes\Async Apex Recipes\AtFutureRecipes.cls | 1            | 75
+.\force-app\main\default\classes\Async Apex Recipes\BatchApexRecipes.cls | 7            | 116
+.\force-app\main\default\classes\Async Apex Recipes\QueueableChainingRecipes.cls | 2            | 45
+.\force-app\main\default\classes\Async Apex Recipes\QueueableRecipes.cls | 2            | 46
+.\force-app\main\default\classes\Async Apex Recipes\QueueableWithCalloutRecipes.cls | 6            | 70
+.\force-app\main\default\classes\Collection Recipes\AccountNumberOfEmployeesComparator.cls | 13           | 36
+.\force-app\main\default\classes\Collection Recipes\AccountShippingCountryComparator.cls | 13           | 77
+.\force-app\main\default\classes\Collection Recipes\CollectionUtils.cls | 14           | 123
+.\force-app\main\default\classes\Collection Recipes\IterableApiClient.cls | 2            | 95
+.\force-app\main\default\classes\Collection Recipes\IterationRecipes.cls | 4            | 44
+.\force-app\main\default\classes\Custom Metadata Recipes\CustomMetadataUtilties.cls | 2            | 117
+.\force-app\main\default\classes\Data Recipes\DMLRecipes.cls | 19           | 373
+.\force-app\main\default\classes\Data Recipes\DynamicSOQLRecipes.cls | 1            | 177
+.\force-app\main\default\classes\Data Recipes\MetadataCatalogRecipes.cls | 8            | 138
+.\force-app\main\default\classes\Data Recipes\SOQLRecipes.cls | 2            | 262
+.\force-app\main\default\classes\Email Recipes\InboundEmailHandlerRecipes.cls | 8            | 187
+.\force-app\main\default\classes\Encryption Recipes\EncryptionRecipes.cls | 9            | 449
+.\force-app\main\default\classes\Files Recipes\FilesRecipes.cls | 7            | 241
+.\force-app\main\default\classes\Integration Recipes\ApiServiceRecipes.cls | 3            | 78
+.\force-app\main\default\classes\Integration Recipes\AuraEnabledRecipes.cls | 1            | 72
+.\force-app\main\default\classes\Integration Recipes\CalloutRecipes.cls | 12           | 375
+.\force-app\main\default\classes\Integration Recipes\CustomRestEndpointRecipes.cls | 32           | 441
+.\force-app\main\default\classes\Integration Recipes\NamedCredentialRecipes.cls | 7            | 134
+.\force-app\main\default\classes\Invocable Recipes\InvocableMethodRecipes.cls | 1            | 116
+.\force-app\main\default\classes\LDV Recipes\LDVRecipes.cls  | 4            | 100
+.\force-app\main\default\classes\Platform Cache Recipes\PlatformCacheRecipes.cls | 9            | 161
+.\force-app\main\default\classes\Platform Event Recipes\PlatformEventPublishCallback.cls | 6            | 97
+.\force-app\main\default\classes\Platform Event Recipes\PlatformEventRecipes.cls | 5            | 76
+.\force-app\main\default\classes\Quiddity Recipes\QuiddityGuard.cls | 1            | 76
+.\force-app\main\default\classes\Security Recipes\CanTheUser.cls | 21           | 440
+.\force-app\main\default\classes\Security Recipes\Safely.cls | 16           | 159
+.\force-app\main\default\classes\Shared Code\AccountServiceLayer.cls | 10           | 139
+.\force-app\main\default\classes\Shared Code\ApexClassUtilities.cls | 3            | 68
+.\force-app\main\default\classes\Shared Code\ConnectApiWrapper.cls | 3            | 32
+.\force-app\main\default\classes\Shared Code\DataFactoryForPackageInstalls.cls | 2            | 42
+.\force-app\main\default\classes\Shared Code\FormattedRecipeDisplayController.cls | 2            | 76
+.\force-app\main\default\classes\Shared Code\Log.cls         | 11           | 121
+.\force-app\main\default\classes\Shared Code\LogMessage.cls  | 2            | 84
+.\force-app\main\default\classes\Shared Code\OrderAppMenu.cls | 1            | 30
+.\force-app\main\default\classes\Shared Code\OrgShape.cls    | 17           | 324
+.\force-app\main\default\classes\Shared Code\RecipeTreeViewController.cls | 14           | 134
+.\force-app\main\default\classes\Shared Code\RelatedCodeTabsController.cls | 1            | 38
+.\force-app\main\default\classes\Shared Code\RestClient.cls  | 15           | 405
+.\force-app\main\default\classes\Shared Code\TriggerHandler.cls | 24           | 450
+.\force-app\main\default\classes\Testing Recipes\StubExampleConsumer.cls | 5            | 27
+.\force-app\main\default\classes\Testing Recipes\TestDouble.cls | 10           | 206
+.\force-app\main\default\classes\Testing Recipes\TestHelper.cls | 1            | 37
+.\force-app\main\default\classes\Trigger Recipes\AccountTriggerHandler.cls | 13           | 285
+.\force-app\main\default\classes\Trigger Recipes\LogTriggerHandler.cls | 4            | 45
+.\force-app\main\default\classes\Trigger Recipes\MDTAccountTriggerHandler.cls | 1            | 14
+.\force-app\main\default\classes\Trigger Recipes\MDTSecondAccountTriggerHandler.cls | 1            | 14
+.\force-app\main\default\classes\Trigger Recipes\MetadataTriggerHandler.cls | 6            | 124
+.\force-app\main\default\classes\Trigger Recipes\MetadataTriggerService.cls | 7            | 68
+.\force-app\main\default\classes\Trigger Recipes\PlatformEventRecipesTriggerHandler.cls | 2            | 51
+-----------------------------------------------------------------------------------------------
+GRAND TOTAL                                                  | 393          | 7810
